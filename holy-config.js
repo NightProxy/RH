@@ -5,7 +5,7 @@ const cookie = require('cookie');
 module.exports = {
     //// HOSTING CONFIGURATION ////
 
-    bindingAddress: undefined,
+    bindingAddress: "127.0.0.1",
     port: process.env.PORT,
     crossDomainPort: null,
     publicDir: null,
