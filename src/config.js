@@ -6,7 +6,7 @@ const os = require('os');
 module.exports = {
     //// HOSTING CONFIGURATION ////
 
-    bindingAddress: '127.0.0.1',
+    bindingAddress: '0.0.0.0',
     port: process.env.PORT,
     crossDomainPort: null,
     publicDir: null, // set to null to disable
